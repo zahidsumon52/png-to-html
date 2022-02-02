@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+nav{
+    background: black;
+    position: fixed;
+}
+.ICON{
+    color: #fff;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    display:inline-block
+}
+.menu ul li a{
+    padding: 15px 40px;
+}
+.ICON i{
+    padding: 15px 10px;
+}
+.ICON i:hover{
+    background: rgba(0, 0, 255, 0.527);
+}
+/*background part start*/
+#background{
+    padding: 50px 0px;
+    background: url(../image/Gymnasium.jpg) no-repeat center / cover;
+}
+.bg-text{
+    padding: 50px 0px;
+    color: #fff;
+}
+.bg-text h2{
+    font-size: 40px;
+}
+.bg-text a{
+    margin: 10px 5PX;
+    padding: 10px 10px;
+    border: 2px solid #fff;
+}
+.text-hover a:hover{
+    background-color: #6DC743;
+    border: 2px solid transparent;
+
+}
+
+
+/*background part end*/
+/*ICON part START*/
+#icon{padding: 60px 0px;
+}
+.icon-inner I{
+    width: 60PX;
+    height: 60PX;
+    line-height: 60PX;
+    text-align: center;
+    border-radius: 50%;
+    background: #637CD0;
+    color: #fff;
+    font-size: 24PX;
+    margin-left: 20px;
+}
+.icon-text h2{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.icon-text a{
+    border: 2px solid black;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.icon-item{
+    width: 23%;
+}
+.icon-inner i:hover{
+    background: #98E267;
+}
+.icon-text a:hover{
+    background:#98E267 ;
+}
+.icon-main{
+    display: flex;
+    justify-content: space-between;
+}
+/*ICON part end*/
+/*TABLE part start*/
+#table{
+    padding: 60px opx;
+}
+.table-item{
+    width: 40%;
+    background-color:#B8CCD5;
+
+}
+.table-main{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.table-menu i {
+	color: chartreuse;
+	left: 226px;
+	position: absolute;
+	top: ;
+}
+.table-last{
+  
+    margin: 20px 0;
+}
+.table-last a{
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+.table-last a:hover{
+    background: #6DC743;
+    border: #fff;
+}
+
+.table-menu p{
+    font-size: 12px;
+}
+.table-text h2{
+  padding-left: 20px;  
+  padding-top: 20px;
+  padding-bottom: 20px;
+    
+}
+/*TABLE part end*/
+/*blog part start*/
+#blog{
+    padding: 40px 0px;
+}
+.blog-main{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5CB5D5;
+    padding: 10px 0;
+}
+.blog-one{
+    width: 40%;
+       
+}
+.blog-two{
+    width: 40%;
+       
+}
+.blog-item{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-one h3{
+    color: #5CB5D5;
+}
+.blog-two h3{
+    color: #5CB5D5;
+}
+.blog-one p{
+    padding: 20px 0;
+}
+.blog-two p{
+    padding: 20px 0;
+}
+.blog-last a{
+ border: 2px solid black;
+ padding: 10px 15px;
+ 
+}
+
+.blog-last a:hover{
+    background: #6DC743;
+    border: 2px solid red;
+    color: #fff;
+}
+.blog-end{
+    text-align: center;
+    padding: 40px 0px;
+
+}
+.blog-end h3{
+    padding: 10px;
+}
+.blog-icon{
+    padding-top: 30px;
+    padding-bottom: 15px;
+   text-align: center;
+  padding-left: 60px;
+    position: relative;
+}
+.blog-icon i {
+	position: absolute;
+	color: #48D5AA;
+	top: 25px;
+	left: 535px;
+	font-size: 30px;
+	text-align: center;
+}
+.blog-icon h2{
+    color: #243853;
+}
+.blog-star{
+    padding: 10px 0;
+    text-align: center;
+    
+}
+.blog-star i{
+    background: #9B9FA0;
+    color: #fff;
+    font-size: 30px;
+}
+.blog-star i:hover{
+ background: #6DC743;
+}
+/*blog part end*/
+/*mention part start*/
+#mention{
+    padding: 20px 0;
+    background: #808080;
+}
+.men-top{
+    text-align: center;
+    color: #fff;
+}
+.men-text h1{
+    padding-bottom: 20px;
+    color: #fff;
+}
+.men-text h2{
+    color: #fff;
+}
+.men-text p{
+    font-size: 24px;
+    color: #464646;
+}
+.men-text{
+    padding-top: 15px;
+}
+.men-item{
+    width: 18%;
+}
+.men-inner{
+    display: flex;
+    justify-content: space-between;
+}
+/*mention part end*/
+/*FOOTER part START*/
+.foot-main{
+    text-align: center;
+    color: #fff;
+}
+#footer{
+    padding: 20px 0;
+    background: #062E3A;
+}
+.foot-main a p{
+    color: #fff;
+}
+.foot-main a{
+    margin-left: 30px;
+}
+/*FOOTER part END*/
